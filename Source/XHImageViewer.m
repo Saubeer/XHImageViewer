@@ -202,6 +202,10 @@
                          }
                          
                          [self removeFromSuperview];
+                         if([self.delegate respondsToSelector:@selector(imageViewerDidDismiss:)]) {
+                             [self.delegate imageViewerDidDismiss:self];
+                         }
+
                      }
      ];
 }

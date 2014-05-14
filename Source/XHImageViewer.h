@@ -12,6 +12,7 @@
 
 @optional
 - (void)imageViewer:(XHImageViewer *)imageViewer  willDismissWithSelectedView:(UIImageView*)selectedView;
+- (void)imageViewerDidDismiss:(XHImageViewer *)imageViewer;
 
 @end
 
