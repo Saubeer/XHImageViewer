@@ -193,7 +193,7 @@
     [UIView animateWithDuration:0.3
                      animations:^{
                          _scrollView.alpha = 1;
-                         window.rootViewController.view.transform = CGAffineTransformMakeScale(
+                         //window.rootViewController.view.transform = CGAffineTransformMakeScale(
                                                                                                self.backgroundScale, self.backgroundScale);
                          
                          selectedView.transform = CGAffineTransformIdentity;
@@ -306,7 +306,7 @@
     [UIView animateWithDuration:0.3
                      animations:^{
                          _scrollView.alpha = 0;
-                         window.rootViewController.view.transform = CGAffineTransformIdentity;
+                         //window.rootViewController.view.transform = CGAffineTransformIdentity;
                          
                          XHViewState *state = [XHViewState viewStateForView:currentView];
                          currentView.frame =
