@@ -1,4 +1,4 @@
-![image](https://github.com/JackTeam/XHImageViewer/raw/master/Screenshots/XHImageViewer.gif)
+![image](https://github.com/xhzengAIB/LearnEnglish/raw/master/Screenshots/XHImageViewer.gif)
 XHImageViewer
 =============
 XHImageViewer is images viewer, zoom image
@@ -32,10 +32,10 @@ multiple api to use：
 
 ## Profile
 
-[CocosPods](http://cocosPods.org) is the recommended methods of installation XHPathCover, just add the following line to `Profile`:
+[CocosPods](http://cocosPods.org) is the recommended methods of installation XHImageViewer, just add the following line to `Profile`:
 
 ```
-pod 'XHImageViewer', '~> 0.1.2'
+pod 'XHImageViewer'
 ```
 
 ## Lincense ##
